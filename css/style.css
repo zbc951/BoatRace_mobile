@@ -656,7 +656,7 @@ html body .memberArea .loginBtn::after {
   background: #0069d5;
 }
 html body .memberArea .loginBtn span {
-  font-size: 3.4vw;
+  font-size: 3.7vw;
   font-weight: bold;
   color: #0069d5;
   position: absolute;
@@ -864,7 +864,7 @@ html body .homeCenter .gameList ol ol li p {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 4.3vw;
+  font-size: 4vw;
 }
 html body .homeCenter .gameList ol ol li p.name {
   background: #cacfd3;
@@ -1160,7 +1160,7 @@ html body .filter .loginWindow form label input {
   height: 9.87vw;
   background: #eef5f8;
   border: solid 1px #c2c2c2;
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: bold;
   color: #5f6368;
   border-radius: 3px;
@@ -1246,7 +1246,7 @@ html body .filter .forgetWindow form input {
   margin-top: 19px;
   background: #eef5f8;
   border: solid 1px #c2c2c2;
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: bold;
   color: #5f6368;
   border-radius: 3px;
@@ -1357,7 +1357,7 @@ html body .filter .registerWindow form label input {
   height: 9.6vw;
   background: #eef5f8;
   border: solid 1px #c2c2c2;
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: bold;
   color: #5f6368;
   border-radius: 3px;
@@ -1509,7 +1509,7 @@ html body .filter .news .content.display {
   display: block;
 }
 html body .filter .news .content li {
-  padding: 15px 24px 18px;
+  padding: 15px 18px 15px;
   border: solid 1px #dbdbdb;
   border-radius: 3px;
   width: 90%;
@@ -1521,7 +1521,6 @@ html body .filter .news .content li.noMar {
   margin-top: 0;
 }
 html body .filter .news .content li .date {
-  text-align: right;
   width: 100%;
   height: auto;
   box-sizing: border-box;
@@ -1535,10 +1534,11 @@ html body .filter .news .content li .date {
 html body .filter .news .content li .text {
   width: 100%;
   height: auto;
-  font-size: 12px;
+  font-size: 3.7vw;
   font-weight: bold;
   letter-spacing: 1px;
   color: #0069d5;
+  line-height: 20px;
 }
 html body .filter .langWindow {
   width: 92vw;
@@ -1623,7 +1623,7 @@ html body .filter .cellphoneWindow .content form input {
   height: 42px;
   background: #eef5f8;
   border: solid 1px #c2c2c2;
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: bold;
   color: #5f6368;
   border-radius: 3px;
@@ -1700,7 +1700,7 @@ html body .filter .passwordWindow .content form input {
   height: 42px;
   background: #eef5f8;
   border: solid 1px #c2c2c2;
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: bold;
   color: #5f6368;
   border-radius: 3px;
@@ -4483,6 +4483,12 @@ html body .cardList ul li.empty {
   border-color: #c2c2c2;
   box-shadow: none;
 }
+html body .cardList ul li.empty .addCard, html body .cardList ul li.empty .status {
+  display: block;
+}
+html body .cardList ul li.empty .smallTitle, html body .cardList ul li.empty .smallBranch, html body .cardList ul li.empty .code {
+  display: none;
+}
 html body .cardList ul li.waiting .waiting {
   display: block;
 }
@@ -4490,6 +4496,7 @@ html body .cardList ul li.waiting .code {
   margin-bottom: 10px;
 }
 html body .cardList ul li .addCard {
+  display: none;
   width: 50px;
   height: 50px;
   margin: 27px 0;
@@ -4519,6 +4526,7 @@ html body .cardList ul li .addCard::after {
   background: #ffffff;
 }
 html body .cardList ul li .status {
+  display: none;
   width: 100%;
   height: auto;
   margin-bottom: 8px;
@@ -4610,7 +4618,7 @@ html body .cardContent form input {
   height: 42px;
   background: #eef5f8;
   border: solid 1px #c2c2c2;
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: bold;
   color: #5f6368;
   border-radius: 3px;
@@ -4780,7 +4788,7 @@ html body .depositWrap .depositCnt input {
   height: 42px;
   background: #eef5f8;
   border: solid 1px #c2c2c2;
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: bold;
   color: #5f6368;
   border-radius: 3px;
@@ -4953,7 +4961,7 @@ html body .withdrawalWrap .withdrawalCnt input {
   height: 42px;
   background: #eef5f8;
   border: solid 1px #c2c2c2;
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: bold;
   color: #5f6368;
   border-radius: 3px;
