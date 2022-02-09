@@ -69,7 +69,7 @@ $(function(){
         $('.filter,.registerWindow').addClass('display');
     })
 
-    $('.registerWindow .isCheck p').click(function(){
+    $('.registerWindow .isCheck .detail').click(function(){
         $('.jumpWindow').removeClass('display');
         $('.filter,.ruleWindow').addClass('display');
     })
