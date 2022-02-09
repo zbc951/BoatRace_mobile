@@ -210,6 +210,11 @@
                     letter-spacing: 1px;
                     margin-top: 5px;
                     color: $font-color_7;
+                    width: 100%;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    text-align: center;
                 }
 
                 .bubble {
