@@ -72,4 +72,32 @@
             }
         }
     }
+
+    .help_page {
+        width: 100%;
+        height: calc(100vh - 102px);
+        overflow-x: auto;
+        box-sizing: border-box;
+        padding: 18px 14px;
+
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            color: $font-color_2;
+            letter-spacing: 1px;
+            margin: 14px 0;
+
+            &.first {
+                margin-top: 0;
+            }
+        }
+
+        .cnt {
+            margin-bottom: 8px;
+            line-height: 18px;
+            font-size: 14px;
+            font-weight: bold;
+            color: $font-color_7;
+        }
+    }
 }

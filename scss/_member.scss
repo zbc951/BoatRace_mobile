@@ -248,7 +248,7 @@
         align-items: center;
         justify-content: space-between;
         background: $backgroundColor_2;
-        margin-bottom: 17px;
+        margin-bottom: 10px;
         border: solid 1px $borderColor_6;
 
         &:active,&.active {
@@ -546,7 +546,7 @@
                 justify-content: flex-end;
 
                 &.title {
-                    width: 60vw;
+                    width: 57vw;
                     justify-content: flex-start;
                 }
 
@@ -624,6 +624,21 @@
                         color: transparent;
                         pointer-events: none;
                     }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .memberInfo {
+
+        .info_2 {
+
+            li {
+
+                span {
+                    font-size: 12px;
                 }
             }
         }

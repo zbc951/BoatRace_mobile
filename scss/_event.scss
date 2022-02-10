@@ -83,7 +83,7 @@
                     height: 36px;
                     display: flex;
                     box-sizing: border-box;
-                    padding: 0 15px;
+                    padding: 0 7px;
                     justify-content: flex-end;
 
                     button {
@@ -95,7 +95,7 @@
                         &.apply {
                             @include buttonStyle_7;
                             font-size: 3vw;
-                            margin-left: 10px;
+                            margin-left: 5px;
                         }
                     }
                 }

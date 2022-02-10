@@ -114,12 +114,12 @@
             display: flex;
             justify-content: space-between;
             box-sizing: border-box;
-            padding: 15px 12px;
+            padding: 15px 5px;
 
             button {
                 width: 50%;
                 height: 32px;
-                margin: 0 2px;
+                margin: 0 5px;
 
                 &.applyBtn {
                     @include buttonStyle_7;
