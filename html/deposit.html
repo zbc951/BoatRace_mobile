@@ -74,7 +74,7 @@
                 <p class="title">入金額</p>
                 <input type="text" placeholder="入金額を入力してください">
                 <span class="remind">入金額は「$0〜無制限」でなければなりません</span>
-                <button>今すぐ入金</button>
+                <button class="check">今すぐ入金</button>
             </div>
             <div class="depositCnt forAtm">
                 <p class="title">
@@ -93,7 +93,7 @@
                 <input type="text" placeholder="入金額を入力してください">
                 <span class="remind">入金額は「$10〜$50,000」でなければなりません</span>
                 <span class="remind">参照為替レート - $1 : $1</span>
-                <button>今すぐ入金</button>
+                <button class="check">今すぐ入金</button>
             </div>
             <div class="depositCnt forUsdt">
                 <p class="title">
@@ -112,7 +112,7 @@
                 <input type="text" placeholder="入金額を入力してください">
                 <span class="remind">入金額は「USDT$10〜USDT$100,000」でなければなりません</span>
                 <span class="remind">参照為替レート - USDT$1 : $114.3243</span>
-                <button>今すぐ入金</button>
+                <button class="check">今すぐ入金</button>
             </div>
             <div class="depositCnt forBank">
                 <p class="title">
@@ -131,7 +131,7 @@
                 <input type="text" placeholder="入金額を入力してください">
                 <span class="remind">入金額は「$10〜$10,000」でなければなりません</span>
                 <span class="remind">参照為替レート - $1 : $1</span>
-                <button>今すぐ入金</button>
+                <button class="check">今すぐ入金</button>
             </div>
             <div class="depositCnt forShop">
                 <p class="title">
@@ -150,7 +150,36 @@
                 <input type="text" placeholder="入金額を入力してください">
                 <span class="remind">入金額は「$10〜$500」でなければなりません</span>
                 <span class="remind">参照為替レート - $1 : $1</span>
-                <button>今すぐ入金</button>
+                <button class="check">今すぐ入金</button>
+            </div>
+            <div class="depositCnt ing">
+                <p class="title">下記口座にご入金ください</p>
+                <p class="content">
+                    <span class="smallTitle">銀行</span>
+                    <span class="info">測試銀行-分行</span>
+                </p>
+                <p class="content">
+                    <span class="smallTitle">口座番号</span>
+                    <span class="info">
+                        852852
+                        <button class="copy">コピー</button>
+                    </span>
+                </p>
+                <p class="content">
+                    <span class="smallTitle">口座名義(カタカナ)</span>
+                    <span class="info">
+                        AZGGG
+                        <button class="copy">コピー</button>
+                    </span>
+                </p>
+                <div class="contentBox">
+                    <p>
+                        $1500
+                        <button class="copy">コピー</button>
+                    </p>
+                    <span>(振込金額は注文金額と同じである必要があります!!)</span>
+                </div>
+                <button class="check">送金しました</button>
             </div>
             <!--提醒-->
             <div class="remindBox">

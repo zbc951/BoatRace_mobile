@@ -405,6 +405,11 @@ $(function(){
         $(".depositCnt.forShop").addClass("display");
         $(".depositCnt.forShop").siblings().removeClass("display");
     })
+
+    $(".depositCnt .check").click(function(){
+        $(".depositCnt").removeClass("display");
+        $(".depositCnt.ing").addClass("display");
+    })
 })
 
 //出金頁切換

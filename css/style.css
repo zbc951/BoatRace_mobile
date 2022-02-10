@@ -4809,6 +4809,52 @@ html body .depositWrap .depositCnt .title {
 html body .depositWrap .depositCnt .title .red {
   color: #c50803;
 }
+html body .depositWrap .depositCnt .content {
+  display: flex;
+  height: 48px;
+  align-items: center;
+}
+html body .depositWrap .depositCnt .content span {
+  font-size: 14px;
+  font-weight: bold;
+}
+html body .depositWrap .depositCnt .content span.smallTitle {
+  padding-right: 24px;
+  color: #5f5f5f;
+}
+html body .depositWrap .depositCnt .content span.info {
+  color: #f07b1c;
+  display: flex;
+  align-items: center;
+}
+html body .depositWrap .depositCnt .contentBox {
+  width: 100%;
+  height: auto;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: solid 1px #c2c2c2;
+  background: #f7f7f7;
+  border-radius: 3px;
+  margin-top: 10px;
+  flex-direction: column;
+}
+html body .depositWrap .depositCnt .contentBox p {
+  letter-spacing: 1px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #f07b1c;
+  display: flex;
+  align-items: center;
+}
+html body .depositWrap .depositCnt .contentBox span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #5f5f5f;
+  margin-top: 10px;
+}
 html body .depositWrap .depositCnt .remind {
   display: block;
   font-size: 12px;
@@ -4852,7 +4898,22 @@ html body .depositWrap .depositCnt input {
 html body .depositWrap .depositCnt input::placeholder {
   color: #a6afbf;
 }
-html body .depositWrap .depositCnt button {
+html body .depositWrap .depositCnt .copy {
+  width: 12.27vw;
+  height: 7.73vw;
+  background: linear-gradient(to bottom, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 4vw;
+  font-size: 12px;
+  border-radius: 3px;
+  margin-left: 15px;
+  border: solid 1px #c2c2c2;
+}
+html body .depositWrap .depositCnt .copy:active, html body .depositWrap .depositCnt .copy.active {
+  background: linear-gradient(to top, #41bef2 0%, #36b7ed 41%, #29afe6 100%);
+}
+html body .depositWrap .depositCnt .check {
   width: 100%;
   height: 42px;
   background: linear-gradient(to bottom, #9bd722 0, #99d420 45%, #8fc819);
@@ -4862,7 +4923,7 @@ html body .depositWrap .depositCnt button {
   font-weight: bold;
   margin-top: 30px;
 }
-html body .depositWrap .depositCnt button:active, html body .depositWrap .depositCnt button.active {
+html body .depositWrap .depositCnt .check:active, html body .depositWrap .depositCnt .check.active {
   background: linear-gradient(to top, #9bd722 0, #99d420 45%, #8fc819);
 }
 html body .depositWrap .remindBox {
