@@ -214,21 +214,6 @@ $linear_4: linear-gradient(-51deg,#4f9ff1 0%,#0069d5 51%,#5dacfd 100%);
     }
 }
 
-//mail暗灰底白灰漸層active
-@mixin buttonStyle_12 {
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: bold;
-    background: #bbbbbb;
-    border: solid 1px transparent;
-
-    &.active {
-        background: linear-gradient(to top,#e6e6e6 0,#ffffff 78%);
-        color: #0069d5;
-        border-color: #c2c2c2;
-    }
-}
-
 //disabled
 
 button:disabled {
