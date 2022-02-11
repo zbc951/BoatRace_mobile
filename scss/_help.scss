@@ -80,24 +80,35 @@
         box-sizing: border-box;
         padding: 18px 14px;
 
-        .title {
-            font-size: 22px;
-            font-weight: bold;
-            color: $font-color_2;
-            letter-spacing: 1px;
-            margin: 14px 0;
+        .textBox {
+            width: 100%;
+            height: 100%;
+            background: $backgroundColor_2;
+            border: solid 1px $borderColor_6;
+            border-radius: 3px;
+            box-sizing: border-box;
+            padding: 18px 14px;
+            overflow-y: auto;
 
-            &.first {
-                margin-top: 0;
+            .title {
+                font-size: 22px;
+                font-weight: bold;
+                color: $font-color_2;
+                letter-spacing: 1px;
+                margin: 14px 0;
+    
+                &.first {
+                    margin-top: 0;
+                }
             }
-        }
-
-        .cnt {
-            margin-bottom: 8px;
-            line-height: 18px;
-            font-size: 14px;
-            font-weight: bold;
-            color: $font-color_7;
+    
+            .cnt {
+                margin-bottom: 8px;
+                line-height: 18px;
+                font-size: 14px;
+                font-weight: bold;
+                color: $font-color_7;
+            }
         }
     }
 }
