@@ -1309,8 +1309,7 @@ html body .filter .registerWindow form label {
 html body .filter .registerWindow form label::before {
   content: "";
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 9px;
   left: 10px;
   width: 20px;
   height: 24px;
